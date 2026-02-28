@@ -14,5 +14,6 @@ class Test{
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
         System.out.println(result);
+        System.out.println("hi");
     }
 }
